@@ -1,41 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <Head>
-    <title>Surferacers</title>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <title>SURFERACERS</title>
   </head>
-    <body>
-    <img src="aslogo.png" alt="Logo de Assetto Corsa" width="320" height="120" style="vertical-align:bottom" href="./index.html" />
-    <nav>
-      <a href="./index.html">Inicio</a>
-      <a href="./normas.html">Normativa</a>
-    </nav>
-      <div id="titulo"> 
-        <h1>Surferacers </h1> 
+  <body>
+    <header>
+      <img
+        src="./assets/asseto_corsa_logo.png"
+        alt="Logo del ASSETO CORSA"
+        width="320"
+        height="120"
+        href="./index.html"
+      />
+      <nav>
+        <a href="./index.html">Inicio</a>
+        <a href="./normas.html">Normativa</a>
+        <a href="./eventos.html">Eventos</a>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" name="username" id="username" />
+          <br />
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+          <input type="submit" value="login" />
+        </form>
+      </nav>
+    </header>
+    <main>
+      <h1 class="title">SURFERACERS</h1>
+      <article>
         <nav>
           <ul>
+            <li><a href="#discord">Discord</a></li>
             <li><a href="#calendario">Calendario</a></li>
           </ul>
         </nav>
-        <P>Bienvenido a nuestro website del <em>servidor dedicado</em> para <strong>ASSETO CORSA</strong></P>
-      </div>
-      <div id="titulo"> 
-        <h1>Discord </h1> 
-        <a>https://discord.gg/CDqSc6s827</a>
-      </div>
-      <div id="calendario">
-       <h2>Calendario </h2>
-       <ul>
-        <li>Enero: F3</li>
-        <li>Febrero: stocks cars</li>
-        <li>Marzo: a designar</li>
-        <li>abril: a designar</li>
-        <li>Mayo: a designar</li>
-        <li>Octubre: a designar</li>
-        <li>Noviembre: a designar</li>
-        <li>Dicembre: a designar</li>
-       </ul>
-       <h6>En epoca estival no se organizaran eventos</h6>
-      </div>
- </body>
+        <p>Bienvenido a nuestro website del <em>servidor dedicado</em> para <strong>ASSETO CORSA</strong></p>
+        <div id="discord">
+          <h2>Discord</h2>
+          <a>https://discord.gg/CDqSc6s827</a>
+        </div>
+        <div id="calendario">
+          <h2>Calendario</h2>
+          <ul>
+            <li>Enero: F3</li>
+            <li>Febrero: stocks cars</li>
+            <li>Marzo: a designar</li>
+            <li>abril: a designar</li>
+            <li>Mayo: a designar</li>
+            <li>Octubre: a designar</li>
+            <li>Noviembre: a designar</li>
+            <li>Dicembre: a designar</li>
+          </ul>
+          <h6>En epoca estival no se organizaran eventos</h6>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>
- 
